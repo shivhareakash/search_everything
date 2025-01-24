@@ -1,0 +1,13 @@
+name: MiniDesktopGoogle
+version: 1.0
+description: "A file search GUI tool with sorting and opening in Explorer functionality."
+
+dependencies:
+  - python: ">=3.6"
+  - pyinstaller: "6.11.1"
+  - altgraph: "0.17"
+  - PySide2: "5.15.2"  # PyInstaller may require this package, depending on your platform
+  - setuptools: ">=42.0.0"
+
+scripts:
+  - main.py
